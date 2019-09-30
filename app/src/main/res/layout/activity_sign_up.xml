@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/colorPrimary"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/voter_id"
+        android:background="@drawable/input_background"
+        android:padding="15dp"
+        android:id="@+id/NID"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailSP"
+        android:hint="@string/email"
+        android:layout_below="@+id/NID"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:padding="15dp"
+        android:layout_below="@id/emailSP"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:id="@+id/passwordSP"/>
+
+
+    <EditText
+        android:id="@+id/policeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="149dp"
+        android:background="@drawable/input_background"
+        android:padding="15dp"
+        android:hint="Officer ID (OPTIONAL)"/>
+
+    <Button
+        android:id="@+id/signBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/btn2" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ZeroCorruption</string>
+    <string name="email">Enter your e-mail...</string>
+    <string name="password">Your password...</string>
+    <string name="btn1">Log In</string>
+    <string name="description">short description of the crime</string>
+    <string name="btn2">Sign Up</string>
+    <string name="newUser">Create New Account</string>
+    <string name="voter_id">Enter your NID no...</string>
+    <string name="submit">submit evidence</string>
+    <string name="evidence">You must submit at least one evidence</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="home_name">Name who you are reporting against...</string>
+    <string name="direction">Fill all the fields to complain against someone.Do not worry.Your identity will be kept secret.</string>
+    <string name="image">Upload image and submit complaint</string>
+    <string name="audio">Upload Audio and submit complaint</string>
+    <string name="video">Upload Video and submit complaint</string>
+</resources>

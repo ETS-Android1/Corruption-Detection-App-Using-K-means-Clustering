@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "461557314722",
+    "firebase_url": "https://zerocorruption-e9c39.firebaseio.com",
+    "project_id": "zerocorruption-e9c39",
+    "storage_bucket": "zerocorruption-e9c39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461557314722:android:c8589abc56d90c0d",
+        "android_client_info": {
+          "package_name": "com.fazal.zerocorruption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461557314722-dn3jhdporl6g5sktr4tul13rhl2ho1hv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fazal.zerocorruption",
+            "certificate_hash": "66ad529644ac71a042d90bd662fb7255447cd1f4"
+          }
+        },
+        {
+          "client_id": "461557314722-pgere8rjacs2hhihsimm5sfp3kbjmmsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD4w3CtotMzMKCyVVE3CPAzxzG_QTAQM8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461557314722-pgere8rjacs2hhihsimm5sfp3kbjmmsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

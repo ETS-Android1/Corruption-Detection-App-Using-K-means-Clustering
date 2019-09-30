@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/directionText"
+        android:textSize="17sp"
+        android:text="@string/direction"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="15dp"
+        android:hint="@string/home_name"
+        android:layout_below="@id/directionText"
+        android:layout_marginTop="20dp"
+        android:id="@+id/criminal_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:padding="15dp"
+        android:layout_below="@id/criminal_name"
+        android:layout_marginTop="20dp"
+        android:hint="@string/description"
+        android:layout_weight="1"
+        android:id="@+id/description"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/evidenceText"
+        android:layout_below="@id/description"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:text="@string/evidence"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="@string/submit"
+        android:layout_below="@+id/evidenceText"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"/>
+
+</LinearLayout>

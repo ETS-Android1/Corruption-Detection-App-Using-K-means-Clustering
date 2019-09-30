@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIActivity"
+    android:padding="20dp"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EVALUATE EMPLOYEES"
+        android:id="@+id/first_btn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/second_btn"
+        android:background="@drawable/btn_background" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_background"
+        android:text="SUBMIT COMPLAINTS"
+        android:layout_marginTop="100dp"
+        android:id="@+id/second_btn" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_btn"
+        android:text="check if you are an employee"
+        android:layout_alignLeft="@id/second_btn"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:id="@+id/employee"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter employee code if you are an employee (for evaluation only)"
+        android:layout_below="@id/employee"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:padding="5dp"
+        android:id="@+id/code"/>
+
+
+</RelativeLayout>
