@@ -1,0 +1,1 @@
+An android application which can clusters employees according to their level of corruption. Clustered employees are in honest or average or dishonest type. K-means clustering algorithm used for this clustering purpose.
